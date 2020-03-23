@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Variablentest</title>
+		<meta charset="UTF-8" />
+
+		<script>
+			function myFunction() {
+				var test = "Hallo";
+				alert(test);
+				document.getElementById('paragraph').innerHTML="Wenn der Variablenname nicht mit einer Zahl anfängt, funktioniert es!";
+			}
+		</script>
+	</head>
+	<body onLoad="myFunction()">
+		<p id="paragraph">Wenn der Variablenname mit einer Zahl anfängt, funktioniert es nicht!</p>
+	</body>
+</html>

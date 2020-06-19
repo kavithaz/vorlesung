@@ -15,7 +15,7 @@ public class VelocityController {
     @Autowired
     VelocityRepository velocityRepository;
 
- // Get All Notes
+ // Get All Velocities
     @CrossOrigin(origins = "*") //CORS (Cross-origin resource sharing) for all sites
     @GetMapping("/velocities")
     public List<Velocity> getAllVelocities(HttpServletResponse response) {
